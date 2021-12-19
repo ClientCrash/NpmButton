@@ -7,7 +7,7 @@
   "description": "Adds a search on npm button to all github repos with javascript or typescript.",
 
   "icons": {
-    "48": "npm-0.png"
+    "120": "npm-0.png"
   },
 
   "content_scripts": [
