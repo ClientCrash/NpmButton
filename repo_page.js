@@ -9,9 +9,12 @@ for(i=0;i<langs.length;i++){
 		isJSRepo=true
 	}
 }
-if(isJSRepo){
+if(isJSRepo && onlyLetters(reponame)){
 	addBTN()
 	console.log("Adding search on npm Button!")
+}
+function onlyLetters(str) {
+	return str.match("^[A-Za-z0-9]+$");
 }
 function addBTN(){
 var i_html = '<a id="npmsrchbtn" class="btn ml-2" href="https://www.npmjs.com/search?q='+reponame+'">Search <b style="color:#F7DF1E;">'+reponame+'</b> on NPM</a>'
