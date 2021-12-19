@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Npm Search Button",
-  "version": "1.0",
+  "version": "1.0.0",
 
   "description": "Adds a search on npm button to all github repos with javascript or typescript.",
 
